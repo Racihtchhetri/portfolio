@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <div class="firstSection">
+        <div class="right-content">
+            <h2>LET US DELIGHT YOU.</h2>
+            <p>Delicious, handcrafted beverages and great-tasting food. The secret to making life better.</p>
+        </div>
+        <div class="left-content">
+            <img src="images/hello.jpg" alt="">
+        </div>
+    </div>
+    <hr>
+</section>
+
+<section>
+  <div class="firstSection">
+      <div class="right-content">
+          <h2>LET US DELIGHT YOU.</h2>
+          <p>Delicious, handcrafted beverages and great-tasting food. The secret to making life better.</p>
+      </div>
+      <div class="left-content">
+          <img src="images/hello.jpg" alt="">
+      </div>
+  </div>
+  <hr>
+</section>
+
+<style>
+    .firstSection {
+        display: flex;
+        flex-direction: row-reverse; /* Reverses the order of items */
+        align-items: center; /* Centers items vertically */
+    }
+
+    .left-content, .right-content {
+        flex: 1; /* Equal width for both columns */
+        padding: 0 20px; /* Optional: Add padding to the columns */
+    }
+
+    .left-content img {
+        max-width: 100%; /* Ensure image doesn't exceed its container */
+        height: auto; /* Maintain aspect ratio */
+    }
+</style>
+
+</body>
+</html>
