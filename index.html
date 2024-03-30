@@ -248,7 +248,7 @@
         </div>
 
         <div class="container d-flex justify-content-center">
-            <form class="p-2 m-3 shadow-lg" id="myForm">
+            <form class="p-2 m-3 shadow-lg" id="myForm" method="post" action="action.php">
                 <div class="form-group m-3">
                   <label for="name">Name:</label>
                   <input type="text" class="form-control" id="name" name="name" required>
@@ -264,7 +264,7 @@
                   <textarea class="form-control" id="message" name="message" rows="4"></textarea>
                 </div>
                 
-                <button type="submit" class="btn btn-danger m-3">
+                <button type="submit" name="submit" class="btn btn-danger m-3">
                         <img src="telegram-stroke-rounded.svg" alt="Telegram Icon">
                         Send Message
                 </button>
