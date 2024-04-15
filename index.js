@@ -1,9 +1,9 @@
 var typed = new Typed('#element', {
-    strings: ['<span style="color:red;">Web Develoooper...<img src="/images/cross.svg" style="width: 50px;"></span>',
+    strings: ['<span style="color:red;">Web Develoooper...<img src="images/cross.svg" style="width: 50px;"></span>',
   '',
-  '<span style="color:red;">Web Divloper...<img src="/images/cross.svg" style="width: 50px;"</span>',
+  '<span style="color:red;">Web Divloper...<img src="images/cross.svg" style="width: 50px;"</span>',
   '',
-  '<span style="color: #87fd00;">Web Developer...<img src="/images/correct.svg" style="width: 50px";</span>'],
+  '<span style="color: #87fd00;">Web Developer...<img src="images/correct.svg" style="width: 50px";</span>'],
 
     typeSpeed: 70,
     backsbackSpeed: 50,
